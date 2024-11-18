@@ -1,0 +1,18 @@
+usermodel
+full name - string
+email - string
+password - string
+cart - array
+isAdmin - boolean
+orders - array
+contact - number
+picture - db
+
+product
+image - db
+name - string
+price - number
+discount - number
+bgcolor - string (property)
+panelcolor - string (property)
+textcolor - string (property)
