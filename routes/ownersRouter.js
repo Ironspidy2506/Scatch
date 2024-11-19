@@ -19,8 +19,9 @@ if (process.env.NODE_ENV === "development") {
     });
 }
 
-router.get("/", function (req, res) {
-    res.send("Hey it's working")
+router.get("/admin", function (req, res) {
+    let success = req.flash("success");
+    res.render('createproducts', { success });
 });
 
 module.exports = router;
